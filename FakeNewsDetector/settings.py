@@ -27,7 +27,7 @@ SECRET_KEY = os.environ["SECRET_KEY"]
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['fakenewsdetector007.herokuapp.com', 'fake-news-detector-007.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['fakenewsdetector007.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -129,6 +129,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # added manually
 
-STATICFILES_DIRS = [
-    BASE_DIR / "static"
-]
+#STATICFILES_DIRS = [
+#    BASE_DIR / "static"
+#]
