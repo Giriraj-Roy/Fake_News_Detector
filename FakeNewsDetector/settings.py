@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-!87n^(@wkpe#3n2)y4qt4^*x-ep$90l4!3j!t+*gy9__pvr!hu
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'fake-news-detector-007.herokuapp.com', 'fake-news-detector-007.herokuapp.com/FakeNewsDetector']
+ALLOWED_HOSTS = [ 'fake-news-detector-007.herokuapp.com', '127.0.0.1', 'fake-news-detector-007.herokuapp.com/FakeNewsDetector']
 
 
 # Application definition
