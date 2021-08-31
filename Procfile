@@ -1,1 +1,1 @@
-web: gunicorn FakeNewsDetector.wsgi --log-file -
+web: gunicorn FakeNewsDetector.wsgi
